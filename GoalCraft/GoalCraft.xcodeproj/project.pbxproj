@@ -11,6 +11,9 @@
 		676846672B3F46E700339228 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846662B3F46E700339228 /* ContentView.swift */; };
 		676846692B3F46EA00339228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676846682B3F46EA00339228 /* Assets.xcassets */; };
 		6768466C2B3F46EA00339228 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6768466B2B3F46EA00339228 /* Preview Assets.xcassets */; };
+		676846762B3F4A6B00339228 /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846752B3F4A6B00339228 /* Athlete.swift */; };
+		676846782B3F4B8500339228 /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846772B3F4B8500339228 /* Training.swift */; };
+		6768467A2B3F4D4B00339228 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846792B3F4D4B00339228 /* Exercise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		676846662B3F46E700339228 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		676846682B3F46EA00339228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6768466B2B3F46EA00339228 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		676846752B3F4A6B00339228 /* Athlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
+		676846772B3F4B8500339228 /* Training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = "<group>"; };
+		676846792B3F4D4B00339228 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		676846632B3F46E700339228 /* GoalCraft */ = {
 			isa = PBXGroup;
 			children = (
+				676846742B3F494600339228 /* controller */,
+				676846732B3F493A00339228 /* view */,
+				676846722B3F492E00339228 /* model */,
 				676846642B3F46E700339228 /* GoalCraftApp.swift */,
 				676846662B3F46E700339228 /* ContentView.swift */,
 				676846682B3F46EA00339228 /* Assets.xcassets */,
@@ -65,6 +74,30 @@
 				6768466B2B3F46EA00339228 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		676846722B3F492E00339228 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				676846752B3F4A6B00339228 /* Athlete.swift */,
+				676846772B3F4B8500339228 /* Training.swift */,
+				676846792B3F4D4B00339228 /* Exercise.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		676846732B3F493A00339228 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		676846742B3F494600339228 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6768467A2B3F4D4B00339228 /* Exercise.swift in Sources */,
 				676846672B3F46E700339228 /* ContentView.swift in Sources */,
+				676846782B3F4B8500339228 /* Training.swift in Sources */,
+				676846762B3F4A6B00339228 /* Athlete.swift in Sources */,
 				676846652B3F46E700339228 /* GoalCraftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
