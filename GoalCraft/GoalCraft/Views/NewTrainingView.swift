@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct NewTrainingView: View {
+    @StateObject var viewModel = NewTrainingViewViewModel();
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            
+            Text("New Training")
+                .font(.system(size:32))
+                .bold()
+                .padding(.top, 50)
+        }
     }
 }
 

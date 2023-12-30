@@ -21,10 +21,13 @@ struct TrainingListView: View {
             .navigationTitle("Trainings")
             .toolbar {
                 Button {
-                    //action
+                    viewModel.showNewTraining = true
                 } label: {
                     Image(systemName: "plus")
                 }
+            }
+            .sheet(isPresented: $viewModel.showNewTraining) {
+                NewTrainingView()
             }
         }
     }

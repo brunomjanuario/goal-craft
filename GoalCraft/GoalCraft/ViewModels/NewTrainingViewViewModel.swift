@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class NewTrainingViewViewModel : ObservableObject {
+    
+    @Published var date: Date = Date()
+    @Published var duration: Int = 0
+    
+    init(){}
+    
+}

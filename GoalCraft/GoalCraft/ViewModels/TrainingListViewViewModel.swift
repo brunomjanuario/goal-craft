@@ -8,5 +8,7 @@
 import Foundation
 
 class TrainingListViewViewModel : ObservableObject {
+    @Published var showNewTraining: Bool = false
+    
     init(){}
 }
