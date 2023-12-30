@@ -8,23 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		676846652B3F46E700339228 /* GoalCraftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846642B3F46E700339228 /* GoalCraftApp.swift */; };
-		676846672B3F46E700339228 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846662B3F46E700339228 /* ContentView.swift */; };
 		676846692B3F46EA00339228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676846682B3F46EA00339228 /* Assets.xcassets */; };
 		6768466C2B3F46EA00339228 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6768466B2B3F46EA00339228 /* Preview Assets.xcassets */; };
 		676846762B3F4A6B00339228 /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846752B3F4A6B00339228 /* Athlete.swift */; };
 		676846782B3F4B8500339228 /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846772B3F4B8500339228 /* Training.swift */; };
 		6768467A2B3F4D4B00339228 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846792B3F4D4B00339228 /* Exercise.swift */; };
+		676846822B40486300339228 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846812B40486300339228 /* MainView.swift */; };
+		676846842B4048B000339228 /* TrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846832B4048B000339228 /* TrainingView.swift */; };
+		676846862B4048D900339228 /* NewTrainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846852B4048D900339228 /* NewTrainingView.swift */; };
+		676846882B40493900339228 /* TrainingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846872B40493900339228 /* TrainingListView.swift */; };
+		6768468A2B40495400339228 /* TrainingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846892B40495400339228 /* TrainingRowView.swift */; };
+		6772372B2B404B0100C92BB5 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6772372A2B404B0100C92BB5 /* MainViewViewModel.swift */; };
+		6772372D2B404B1200C92BB5 /* TrainingViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6772372C2B404B1200C92BB5 /* TrainingViewViewModel.swift */; };
+		6772372F2B404C0800C92BB5 /* NewTrainingViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6772372E2B404C0800C92BB5 /* NewTrainingViewViewModel.swift */; };
+		677237312B404C1600C92BB5 /* TrainingListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677237302B404C1600C92BB5 /* TrainingListViewViewModel.swift */; };
+		677237332B404C2700C92BB5 /* TrainingRowViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677237322B404C2700C92BB5 /* TrainingRowViewViewModel.swift */; };
+		677237392B40839100C92BB5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677237382B40839100C92BB5 /* SettingsView.swift */; };
+		6772373B2B40855300C92BB5 /* SettingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6772373A2B40855300C92BB5 /* SettingsViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		676846612B3F46E700339228 /* GoalCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		676846642B3F46E700339228 /* GoalCraftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCraftApp.swift; sourceTree = "<group>"; };
-		676846662B3F46E700339228 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		676846682B3F46EA00339228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6768466B2B3F46EA00339228 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		676846752B3F4A6B00339228 /* Athlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
 		676846772B3F4B8500339228 /* Training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = "<group>"; };
 		676846792B3F4D4B00339228 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		676846812B40486300339228 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		676846832B4048B000339228 /* TrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingView.swift; sourceTree = "<group>"; };
+		676846852B4048D900339228 /* NewTrainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrainingView.swift; sourceTree = "<group>"; };
+		676846872B40493900339228 /* TrainingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingListView.swift; sourceTree = "<group>"; };
+		676846892B40495400339228 /* TrainingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRowView.swift; sourceTree = "<group>"; };
+		6772372A2B404B0100C92BB5 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		6772372C2B404B1200C92BB5 /* TrainingViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingViewViewModel.swift; sourceTree = "<group>"; };
+		6772372E2B404C0800C92BB5 /* NewTrainingViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTrainingViewViewModel.swift; sourceTree = "<group>"; };
+		677237302B404C1600C92BB5 /* TrainingListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingListViewViewModel.swift; sourceTree = "<group>"; };
+		677237322B404C2700C92BB5 /* TrainingRowViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingRowViewViewModel.swift; sourceTree = "<group>"; };
+		677237382B40839100C92BB5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6772373A2B40855300C92BB5 /* SettingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +79,11 @@
 		676846632B3F46E700339228 /* GoalCraft */ = {
 			isa = PBXGroup;
 			children = (
-				676846742B3F494600339228 /* controller */,
-				676846732B3F493A00339228 /* view */,
-				676846722B3F492E00339228 /* model */,
+				676846742B3F494600339228 /* Controllers */,
+				676846802B4047ED00339228 /* ViewModels */,
+				676846732B3F493A00339228 /* Views */,
+				676846722B3F492E00339228 /* Models */,
 				676846642B3F46E700339228 /* GoalCraftApp.swift */,
-				676846662B3F46E700339228 /* ContentView.swift */,
 				676846682B3F46EA00339228 /* Assets.xcassets */,
 				6768466A2B3F46EA00339228 /* Preview Content */,
 			);
@@ -76,28 +98,47 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		676846722B3F492E00339228 /* model */ = {
+		676846722B3F492E00339228 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				676846752B3F4A6B00339228 /* Athlete.swift */,
 				676846772B3F4B8500339228 /* Training.swift */,
 				676846792B3F4D4B00339228 /* Exercise.swift */,
 			);
-			path = model;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		676846732B3F493A00339228 /* view */ = {
+		676846732B3F493A00339228 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				676846812B40486300339228 /* MainView.swift */,
+				676846832B4048B000339228 /* TrainingView.swift */,
+				676846852B4048D900339228 /* NewTrainingView.swift */,
+				676846872B40493900339228 /* TrainingListView.swift */,
+				676846892B40495400339228 /* TrainingRowView.swift */,
+				677237382B40839100C92BB5 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		676846742B3F494600339228 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = view;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
-		676846742B3F494600339228 /* controller */ = {
+		676846802B4047ED00339228 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				6772372A2B404B0100C92BB5 /* MainViewViewModel.swift */,
+				6772372C2B404B1200C92BB5 /* TrainingViewViewModel.swift */,
+				6772372E2B404C0800C92BB5 /* NewTrainingViewViewModel.swift */,
+				677237302B404C1600C92BB5 /* TrainingListViewViewModel.swift */,
+				677237322B404C2700C92BB5 /* TrainingRowViewViewModel.swift */,
+				6772373A2B40855300C92BB5 /* SettingsViewViewModel.swift */,
 			);
-			path = controller;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,10 +211,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677237392B40839100C92BB5 /* SettingsView.swift in Sources */,
+				676846822B40486300339228 /* MainView.swift in Sources */,
 				6768467A2B3F4D4B00339228 /* Exercise.swift in Sources */,
-				676846672B3F46E700339228 /* ContentView.swift in Sources */,
+				677237332B404C2700C92BB5 /* TrainingRowViewViewModel.swift in Sources */,
 				676846782B3F4B8500339228 /* Training.swift in Sources */,
 				676846762B3F4A6B00339228 /* Athlete.swift in Sources */,
+				676846882B40493900339228 /* TrainingListView.swift in Sources */,
+				677237312B404C1600C92BB5 /* TrainingListViewViewModel.swift in Sources */,
+				676846862B4048D900339228 /* NewTrainingView.swift in Sources */,
+				6772372F2B404C0800C92BB5 /* NewTrainingViewViewModel.swift in Sources */,
+				6768468A2B40495400339228 /* TrainingRowView.swift in Sources */,
+				676846842B4048B000339228 /* TrainingView.swift in Sources */,
+				6772372B2B404B0100C92BB5 /* MainViewViewModel.swift in Sources */,
+				6772372D2B404B1200C92BB5 /* TrainingViewViewModel.swift in Sources */,
+				6772373B2B40855300C92BB5 /* SettingsViewViewModel.swift in Sources */,
 				676846652B3F46E700339228 /* GoalCraftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,11 +357,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GoalCraft/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Goal Craft";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,11 +385,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GoalCraft/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Goal Craft";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
