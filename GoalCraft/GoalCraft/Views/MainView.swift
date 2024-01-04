@@ -15,6 +15,11 @@ struct MainView: View {
                 .tabItem {
                     Label("Trainings", systemImage: "figure.run")
                 }
+
+            RecordsView()
+                .tabItem {
+                    Label("Records", systemImage: "dumbbell.fill")
+                }
             
             SettingsView()
                 .tabItem {

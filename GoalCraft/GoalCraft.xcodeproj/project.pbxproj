@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		676167C02B45E8AB00317A1B /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676167BF2B45E8AB00317A1B /* RecordsView.swift */; };
+		676167C22B45E96300317A1B /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676167C12B45E96300317A1B /* Record.swift */; };
 		676846652B3F46E700339228 /* GoalCraftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846642B3F46E700339228 /* GoalCraftApp.swift */; };
 		676846692B3F46EA00339228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676846682B3F46EA00339228 /* Assets.xcassets */; };
 		6768466C2B3F46EA00339228 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6768466B2B3F46EA00339228 /* Preview Assets.xcassets */; };
-		676846762B3F4A6B00339228 /* Athlete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846752B3F4A6B00339228 /* Athlete.swift */; };
+		676846762B3F4A6B00339228 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846752B3F4A6B00339228 /* Profile.swift */; };
 		676846782B3F4B8500339228 /* Training.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846772B3F4B8500339228 /* Training.swift */; };
 		6768467A2B3F4D4B00339228 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846792B3F4D4B00339228 /* Exercise.swift */; };
 		676846822B40486300339228 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676846812B40486300339228 /* MainView.swift */; };
@@ -28,11 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		676167BF2B45E8AB00317A1B /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
+		676167C12B45E96300317A1B /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		676846612B3F46E700339228 /* GoalCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalCraft.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		676846642B3F46E700339228 /* GoalCraftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCraftApp.swift; sourceTree = "<group>"; };
 		676846682B3F46EA00339228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6768466B2B3F46EA00339228 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		676846752B3F4A6B00339228 /* Athlete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Athlete.swift; sourceTree = "<group>"; };
+		676846752B3F4A6B00339228 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		676846772B3F4B8500339228 /* Training.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training.swift; sourceTree = "<group>"; };
 		676846792B3F4D4B00339228 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		676846812B40486300339228 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -101,9 +105,10 @@
 		676846722B3F492E00339228 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				676846752B3F4A6B00339228 /* Athlete.swift */,
+				676846752B3F4A6B00339228 /* Profile.swift */,
 				676846772B3F4B8500339228 /* Training.swift */,
 				676846792B3F4D4B00339228 /* Exercise.swift */,
+				676167C12B45E96300317A1B /* Record.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 				676846872B40493900339228 /* TrainingListView.swift */,
 				676846892B40495400339228 /* TrainingRowView.swift */,
 				677237382B40839100C92BB5 /* SettingsView.swift */,
+				676167BF2B45E8AB00317A1B /* RecordsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,10 +219,11 @@
 			files = (
 				677237392B40839100C92BB5 /* SettingsView.swift in Sources */,
 				676846822B40486300339228 /* MainView.swift in Sources */,
+				676167C22B45E96300317A1B /* Record.swift in Sources */,
 				6768467A2B3F4D4B00339228 /* Exercise.swift in Sources */,
 				677237332B404C2700C92BB5 /* TrainingRowViewViewModel.swift in Sources */,
 				676846782B3F4B8500339228 /* Training.swift in Sources */,
-				676846762B3F4A6B00339228 /* Athlete.swift in Sources */,
+				676846762B3F4A6B00339228 /* Profile.swift in Sources */,
 				676846882B40493900339228 /* TrainingListView.swift in Sources */,
 				677237312B404C1600C92BB5 /* TrainingListViewViewModel.swift in Sources */,
 				676846862B4048D900339228 /* NewTrainingView.swift in Sources */,
@@ -226,6 +233,7 @@
 				6772372B2B404B0100C92BB5 /* MainViewViewModel.swift in Sources */,
 				6772372D2B404B1200C92BB5 /* TrainingViewViewModel.swift in Sources */,
 				6772373B2B40855300C92BB5 /* SettingsViewViewModel.swift in Sources */,
+				676167C02B45E8AB00317A1B /* RecordsView.swift in Sources */,
 				676846652B3F46E700339228 /* GoalCraftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

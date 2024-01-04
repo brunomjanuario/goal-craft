@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Athlete {
+class Profile {
     
     var username: String
     var age: String

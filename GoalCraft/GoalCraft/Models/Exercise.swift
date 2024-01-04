@@ -9,18 +9,20 @@ import Foundation
 
 class Exercise {
     var id: Int
-    var duration: Int
-    var description: String
     var name: String
     var type: String
+    var duration: Int
     var repetition: Int
-    
-    init(id: Int, duration: Int, description: String, name: String, type: String, repetition: Int) {
+    var weight: Int
+    var description: String
+
+    init(id: Int, name: String, type: String, duration: Int, repetition: Int, weight: Int, description: String) {
         self.id = id
-        self.duration = duration
-        self.description = description
         self.name = name
         self.type = type
+        self.duration = duration
         self.repetition = repetition
+        self.weight = weight
+        self.description = description
     }
 }
